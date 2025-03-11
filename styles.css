@@ -47,7 +47,7 @@ button:disabled {
     background: #f08787;
     cursor: not-allowed;
 }
-h2 {
+h4 {
     color: red;
     margin-top: 0;
 }
