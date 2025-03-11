@@ -31,11 +31,6 @@ label, select, button {
     display: block;
     width: 100%;
 }
-h2 {
-    color: red;
-    margin-top: 0;
-}
-
 button {
     background: #0508f0;
     border: none;
@@ -51,4 +46,8 @@ button:hover {
 button:disabled {
     background: #f08787;
     cursor: not-allowed;
+}
+h2 {
+    color: red;
+    margin-top: 0;
 }
