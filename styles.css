@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.quiz-box {
+    background: rgba(5, 191, 238, 0.938);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+label, select, button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+}
+
+button {
+    background: #0508f0;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #e68900;
+}
+
+button:disabled {
+    background: #f08787;
+    cursor: not-allowed;
+}

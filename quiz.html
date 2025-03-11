@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="quiz-header">
+            <h2 id="quizTitle"></h2>
+            <p id="timer">Time: <span id="timeLeft">00:00</span></p>
+        </div>
+        
+        <div class="question-box">
+            <p id="questionText"></p>
+            <div id="options"></div>
+        </div>
+
+        <div id="explanationBox" class="hidden">
+            <p id="explanationText"></p>
+        </div>
+
+        <div class="navigation">
+            <button id="backBtn">Back</button>
+            <button id="nextBtn">Next</button>
+        </div>
+
+        <button id="submitQuiz">Submit Quiz</button>
+        <button id="homeBtn">Home</button>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>

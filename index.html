@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="quiz-box">
+      <h1>Welcome to the Quiz</h1>
+      <p>Select your class, subject, and topic to start the quiz!</p>
+
+      <label for="classSelect">Select Class:</label>
+      <select id="classSelect">
+        <option value="">Select Class</option>
+        <option value="Class 1">Class 1</option>
+        <option value="Class 2">Class 2</option>
+        <option value="Class 3">Class 3</option>
+        <option value="Class 4">Class 4</option>
+        <option value="Class 5">Class 5</option>
+      </select>
+
+      <label for="subjectSelect">Select Subject:</label>
+      <select id="subjectSelect" disabled>
+        <option value="">Select Subject</option>
+      </select>
+
+      <label for="topicSelect">Select Topic:</label>
+      <select id="topicSelect" disabled>
+        <option value="">Select Topic</option>
+      </select>
+
+      <button id="startQuiz" disabled>Start Quiz</button>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

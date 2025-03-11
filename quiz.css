@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.png') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+.quiz-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#timer {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff9800;
+}
+
+.question-box {
+    margin-top: 20px;
+    padding: 10px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.option {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #ddd;
+}
+
+.option:hover {
+    background: #bbb;
+}
+
+.correct {
+    background: green !important;
+    color: white;
+}
+
+.wrong {
+    background: red !important;
+    color: white;
+}
+
+#explanationBox {
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.navigation {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+#backBtn {
+    background: #007bff;
+}
+
+#nextBtn {
+    background: #28a745;
+}
+
+#submitQuiz {
+    background: #ff9800;
+}
+
+#homeBtn {
+    background: #dc3545;
+}
